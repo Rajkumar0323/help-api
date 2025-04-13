@@ -11,3 +11,5 @@ services:
         value: ${DATABASE_USERNAME}
       - key: SPRING_DATASOURCE_PASSWORD
         value: ${DATABASE_PASSWORD}
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
