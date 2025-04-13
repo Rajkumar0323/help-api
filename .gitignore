@@ -1,0 +1,32 @@
+# 1. Maven target folder (build output)
+target/
+
+# 2. IntelliJ / Eclipse / VSCode IDE configs
+*.iml
+.idea/
+*.ipr
+*.iws
+*.class
+.project
+.settings/
+.vscode/
+
+# 3. OS-specific files
+.DS_Store
+Thumbs.db
+
+# 4. Environment or secret config
+.env
+*.env
+*.env.local
+
+# 5. Local application properties (optional: if it contains secrets)
+src/main/resources/application.properties
+src/main/resources/application.yml
+
+# 6. Logs
+*.log
+logs/
+
+# 7. Dependency directory if using wrappers
+.mvn/
